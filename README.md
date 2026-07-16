@@ -1,7 +1,7 @@
-<h1 align="center">Messias Lima — Links</h1>
+<h1 align="center">Digital Business Card — Messias Lima</h1>
 
 <p align="center">
-  Página pessoal de link in bio: um cartão de visitas digital que reúne meus principais contatos, redes sociais e projetos em um só lugar, com suporte a tema claro e escuro.
+  Página pessoal de link in bio: É um cartão de visitas digital responsivo que centraliza meus principais projetos, redes sociais e meios de contato em um único lugar, com suporte nativo a temas claro (light) e escuro (dark).
 </p>
 
 <p align="center">
@@ -27,14 +27,14 @@
 
 ## Sobre o projeto
 
-Este projeto é a minha página de **link in bio**: uma landing page simples e responsiva que centraliza os links mais importantes do meu perfil profissional — GitHub, LinkedIn, redes sociais e canais de contato — em uma única URL, fácil de compartilhar em qualquer lugar (currículo, assinatura de e-mail, bio de redes sociais, etc.).
+Este projeto é a minha página de **link in bio**: uma landing page simples e responsiva que centraliza os links mais importantes do meu perfil profissional — GitHub, LinkedIn, redes sociais e canais de contato em uma única URL, fácil de compartilhar em qualquer lugar (currículo, assinatura de e-mail, bio de redes sociais, etc.).
 
 O foco do projeto foi praticar **HTML e CSS semânticos**, manipulação de tema com **variáveis CSS (custom properties)** e persistência de preferência do usuário com **localStorage**.
 
 ## Funcionalidades
 
-- Alternância entre tema **claro** e **escuro**, com a preferência salva no navegador (`localStorage`)
-- Detecção automática do tema do sistema operacional na primeira visita (`prefers-color-scheme`)
+- Alternância entre tema **claro** e **escuro**
+- Animações suaves de transição entre os temas
 - Layout responsivo, adaptado para diferentes tamanhos de tela
 - Botão de tema acessível via teclado, com `aria-pressed` para leitores de tela
 - Lista de links principais e ícones de redes sociais, todos abrindo em nova aba com segurança (`rel="noopener noreferrer"`)
