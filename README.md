@@ -1,4 +1,4 @@
-<h1 align="center">Digital Business Card — Messias Lima</h1>
+<h1 align="center">Link In Bio | Messias Lima</h1>
 
 <p align="center">
   Página pessoal de link in bio: É um cartão de visitas digital responsivo que centraliza meus principais projetos, redes sociais e meios de contato em um único lugar, com suporte nativo a temas claro (light) e escuro (dark).
@@ -27,7 +27,7 @@
 
 ## Sobre o projeto
 
-Este projeto é a minha página de **link in bio**: uma landing page simples e responsiva que centraliza os links mais importantes do meu perfil profissional — GitHub, LinkedIn, redes sociais e canais de contato em uma única URL, fácil de compartilhar em qualquer lugar (currículo, assinatura de e-mail, bio de redes sociais, etc.).
+Este projeto é a minha página de **link in bio**: uma landing page simples e responsiva que centraliza os links mais importantes do meu perfil profissional  GitHub, LinkedIn, redes sociais e canais de contato em uma única URL, fácil de compartilhar em qualquer lugar (currículo, assinatura de e-mail, bio de redes sociais, etc.).
 
 O foco do projeto foi praticar **HTML e CSS semânticos**, manipulação de tema com **variáveis CSS (custom properties)** e persistência de preferência do usuário com **localStorage**.
 
@@ -71,22 +71,32 @@ Depois, basta abrir o arquivo `index.html` diretamente no navegador, ou rodar co
 O projeto também está publicado via **GitHub Pages**:
 
 - [Acesse o projeto online](https://messiaslim.github.io/link-in-bio/)
-<!-- TODO: ajuste a URL conforme o nome real do seu repositório -->
 
 ## Estrutura do projeto
 
-```
-messias-lima-links/
-├── assets/
-│   ├── avatar.png
-│   ├── bg-mobile.jpg
-│   ├── bg-mobile-light.jpg
-│   ├── moon-stars.svg
-│   └── sun.svg
+## Estrutura do projeto
+
+```text
+link-in-bio/
 ├── index.html
-├── style.css
-├── script.js
-└── README.md
+├── LICENSE
+├── README.md
+└── src/
+    ├── erro.html
+    ├── images/
+    │   ├── avatar.jpeg
+    │   ├── avatar-light.jpeg
+    │   ├── bg-desktop.png
+    │   ├── bg-desktop-light.png
+    │   ├── bg-mobile.png
+    │   ├── bg-mobile-light.png
+    │   ├── moon-stars.svg
+    │   ├── preview.png
+    │   └── sun.svg
+    ├── scripts/
+    │   └── script.js
+    └── styles/
+        └── style.css
 ```
 
 ## Contato
@@ -97,7 +107,7 @@ messias-lima-links/
 
 ## Licença
 
-Esse projeto está sob a licença **MIT** — sinta-se à vontade para usá-lo como base para o seu próprio link in bio, dando os devidos créditos.
+Esse projeto está sob a licença **MIT**, sinta-se à vontade para usá-lo como base para o seu próprio link in bio, dando os devidos créditos.
 
 ---
 
