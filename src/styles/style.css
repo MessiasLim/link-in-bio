@@ -53,10 +53,11 @@ body *{
     border: 2px solid rgb(255, 136, 0);
 }
 
-#profile p{
+#profile h1{
     font-weight: 500;
     line-height: 24px;
     margin-top: 8px;
+    font-size: 16px;
 }
 
 /* swith */
@@ -80,6 +81,7 @@ body *{
     top: 50%;
     transform: translateY(-50%);
     animation: slide-back 0.2s;
+    cursor: pointer;
 }
 
 #switch button:hover{
@@ -157,6 +159,10 @@ ul li a:hover{
 
 #social-links a:hover{
     background-color: var(--highlight-color);
+}
+
+body, a, #switch span, ul li a, #social-links a {
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 }
 
 footer{
